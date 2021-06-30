@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,900;1,400&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+
+	scrollbar-color: rgb(97, 9, 138, 0.2) white;
+	scrollbar-width: thin;
+}
+
+body {
+	/* background: #fafafa; */
+	background: #fff;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smothing: antialiased !important;
+	font-family: 'Montserrat', 'Times New Roman', Times, serif;
+}
+
+body,
+html {
+	height: 100vh;
+	margin: 0px;
+	color: #431e52;
+	font-size: 18px;
+}
+
+.certeiro-button.is-call-to-action {
+	background: #04d4aa;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	transition: color .3s;
+	padding: 10px 10px 10px 10px;
+	-webkit-box-shadow: 0px 10px 13px -7px #025444, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+	box-shadow: 0px 10px 13px -7px #025444, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+	font-weight: 700;
+	border-radius: 4px;
+	text-transform: uppercase;
+	transition: transform 3s;
+}
+
+.certeiro-button.is-call-to-action:focus {
+	background: #04d4aa;
+}
+
+.certeiro-button.is-call-to-action span {
+	font-stretch: ultra-condensed;
+	/* font-weight: 900; */
+}
+
+@media (min-width: 576px) {
+	.certeiro-button.is-call-to-action {
+		/* min-width: 80px; */
+		padding: 15px 0px;
+	}
+}
+
+.certeiro-button.is-call-to-action:focus,
+.certeiro-button.is-call-to-action.is-focus {
+	-webkit-box-shadow: 0 3px 6px -3px #04d4aa;
+	box-shadow: 0 3px 6px -3px #04d4aa;
+	outline: 0;
+}
+.certeiro-button.is-call-to-action:hover,
+.certeiro-button.is-call-to-action.is-hover {
+	/* border: 2px solid #04d4aa; */
+	background-color: #04d4aa;
+	color: #ffffff;
+	text-decoration: none;
+	animation: zoom-in-zoom-out 2s ease-out
+}
+.certeiro-button.is-call-to-action:disabled,
+.certeiro-button.is-call-to-action.is-disabled {
+	background: #999798;
+	border-color: #999798;
+	color: #ffffff;
+	cursor: default;
+}
+
+@keyframes zoom-in-zoom-out {
+	0% {
+		transform: scale(1, 1);
+	}
+	50% {
+		transform: scale(1.02, 1.02);
+	}
+	100% {
+		transform: scale(1, 1);
+	}
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,900;1,400&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+
+	scrollbar-color: rgb(97, 9, 138, 0.2) white;
+	scrollbar-width: thin;
+}
+
+body {
+	/* background: #fafafa; */
+	background: #fff;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smothing: antialiased !important;
+	font-family: 'Montserrat', 'Times New Roman', Times, serif;
+}
+
+body,
+html {
+	height: 100vh;
+	margin: 0px;
+	color: #431e52;
+	font-size: 18px;
+}
+
+.certeiro-button.is-call-to-action {
+	background: #20b1b1;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+
+.certeiro-button.is-call-to-action:focus {
+	background: #d11f81;
+}
+
+.certeiro-button.is-call-to-action span {
+	font-stretch: ultra-condensed;
+	/* font-weight: 900; */
+}
+
+@media (min-width: 576px) {
+	.certeiro-button.is-call-to-action {
+		min-width: 80px;
+        padding: 10px 0px;
+	}
+}
+
+.certeiro-button.is-call-to-action:focus,
+.certeiro-button.is-call-to-action.is-focus {
+	-webkit-box-shadow: 0 3px 6px -3px #147070;
+	box-shadow: 0 3px 6px -3px #147070;
+	outline: 0;
+}
+.certeiro-button.is-call-to-action:hover,
+.certeiro-button.is-call-to-action.is-hover {
+	background-color: #147070;
+	border-color: #147070;
+	color: #ffffff;
+	text-decoration: none;
+}
+.certeiro-button.is-call-to-action:disabled,
+.certeiro-button.is-call-to-action.is-disabled {
+	background: #999798;
+	border-color: #999798;
+	color: #ffffff;
+	cursor: default;
+}
