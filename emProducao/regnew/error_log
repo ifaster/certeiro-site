@@ -1,0 +1,10 @@
+[06-Nov-2021 00:31:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/riiiah8v/public_html/regnew/reg_inc.php:138
+Stack trace:
+#0 /home/riiiah8v/public_html/regnew/s3cpanel.php(253): getmyconnection()
+#1 {main}
+  thrown in /home/riiiah8v/public_html/regnew/reg_inc.php on line 138
+[06-Nov-2021 00:31:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/riiiah8v/public_html/regnew/reg_inc.php:138
+Stack trace:
+#0 /home/riiiah8v/public_html/regnew/s3cpanel.php(253): getmyconnection()
+#1 {main}
+  thrown in /home/riiiah8v/public_html/regnew/reg_inc.php on line 138
